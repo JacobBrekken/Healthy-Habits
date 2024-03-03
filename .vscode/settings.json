@@ -1,0 +1,15 @@
+{
+  "locofyConfig": {
+    "project": "Healthy Habits Website",
+    "id": "65e3bd2f663679b2bdff725d",
+    "framework": "html-css",
+    "typescript": false,
+    "styling": "CSS",
+    "unit": "px",
+    "naming": "Pascal Case",
+    "path": "public/",
+    "componentsPath": "/home/jacob/Documents/Healthy Habits/src/components",
+    "screensPath": "/home/jacob/Documents/Healthy Habits/src/pages"
+  },
+  "svg.preview.background": "transparent"
+}
