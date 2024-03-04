@@ -36,9 +36,9 @@ body {
   --grey-20: #333;
   --dark-green-15: #1a3129;
   --grey-95: #f2f2f2;
-  --absolute-white: #fff;
   --color-darkolivegreen-100: #335933;
   --color-darkolivegreen-200: rgba(51, 89, 51, 0.09);
+  --absolute-white: #fff;
   --green-85: #e5f5bd;
   --green-80: #dcf1a7;
   --green-70: #cbea7b;
@@ -50,14 +50,8 @@ body {
   --grey-35: #59595a;
   --grey-301: #4c4c4d;
   --grey-30: #4c4c4c;
-  --grey-90: #e6e6e6;
-  --color-teal-100: #527a6e;
-  --color-cadetblue: #5c8a7a;
 
   /* Gaps */
-  --gap-57xl: 76px;
-  --gap-lgi: 19px;
-  --gap-19xl: 38px;
   --gap-31xl: 50px;
   --gap-6xl: 25px;
   --gap-xl: 20px;
@@ -68,15 +62,17 @@ body {
   --gap-sm: 14px;
   --gap-11xl: 30px;
   --gap-3xs: 10px;
+  --gap-lgi: 19px;
+  --gap-19xl: 38px;
   --gap-21xl: 40px;
   --gap-676xl: 695px;
   --gap-328xl: 347px;
   --gap-68xl: 87px;
   --gap-155xl: 174px;
   --gap-61xl: 80px;
-  --gap-mid: 17px;
   --gap-9xs: 4px;
   --gap-5xl: 24px;
+  --gap-mid: 17px;
   --gap-xs: 12px;
 
   /* Paddings */
@@ -86,11 +82,13 @@ body {
   --padding-11xl: 30px;
   --padding-xl: 20px;
   --padding-sm: 14px;
+  --padding-3xs: 10px;
   --padding-mini: 15px;
   --padding-smi: 13px;
-  --padding-3xs: 10px;
-  --padding-95xl: 114px;
-  --padding-38xl: 57px;
+  --padding-101xl: 120px;
+  --padding-41xl: 60px;
+  --padding-13xl: 32px;
+  --padding-2xl: 21px;
   --padding-61xl: 80px;
   --padding-60xl: 79px;
   --padding-20xl: 39px;
@@ -100,34 +98,29 @@ body {
   --padding-4xl: 23px;
   --padding-81xl: 100px;
   --padding-7xl: 26px;
-  --padding-19xl: 38px;
   --padding-15xl: 34px;
   --padding-62xl: 81px;
+  --padding-57xl: 76px;
   --padding-12xs: 1px;
   --padding-48xl: 67px;
   --padding-10xl: 29px;
   --padding-46xl: 65px;
-  --padding-11xs: 2px;
-  --padding-13xl: 32px;
-  --padding-135xl: 154px;
-  --padding-131xl: 150px;
-  --padding-18xl: 37px;
   --padding-128xl: 147px;
   --padding-77xl: 96px;
-  --padding-lgi: 19px;
+  --padding-11xs: 2px;
   --padding-21xl: 40px;
   --padding-32xl: 51px;
   --padding-30xl: 49px;
   --padding-98xl: 117px;
-  --padding-57xl: 76px;
   --padding-111xl: 130px;
   --padding-112xl: 131px;
   --padding-65xl: 84px;
   --padding-66xl: 85px;
-  --padding-mid: 17px;
   --padding-xs: 12px;
   --padding-2xs: 11px;
   --padding-22xl: 41px;
+  --padding-mid: 17px;
+  --padding-lgi: 19px;
   --padding-5xs: 8px;
 
   /* Border radiuses */

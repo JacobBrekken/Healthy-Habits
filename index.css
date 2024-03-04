@@ -6,7 +6,7 @@
   flex-shrink: 0;
   display: none;
 }
-.icon {
+.frame-child {
   height: 45px;
   width: 45px;
   position: relative;
@@ -24,7 +24,7 @@
   white-space: nowrap;
   z-index: 1;
 }
-.healthy-habits-text {
+.frame-parent {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -85,7 +85,7 @@
   display: inline-block;
   cursor: pointer;
 }
-.icon-container-frame {
+.text-button-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -93,7 +93,7 @@
   padding: 0px var(--padding-sm) 0px 0px;
   color: #f5f5f5;
 }
-.frame {
+.form-elements-sub {
   height: 27px;
   width: 43px;
   position: relative;
@@ -121,7 +121,7 @@
 .button:hover {
   background-color: var(--color-yellowgreen-100);
 }
-.sub-container-frame {
+.text-button-frame {
   width: 614px;
   display: flex;
   flex-direction: row;
@@ -134,7 +134,7 @@
   font-family: var(--font-urbanist);
 }
 .navbar {
-  flex: 1;
+  align-self: stretch;
   background-color: var(--color-gray-100);
   border-bottom: 1px solid var(--green-90);
   box-sizing: border-box;
@@ -144,14 +144,9 @@
   justify-content: center;
   padding: var(--padding-xl);
   gap: var(--gap-676xl);
-  max-width: 100%;
-}
-.header {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  top: 0;
+  z-index: 99;
+  position: sticky;
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-13xl);
@@ -166,7 +161,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.icon1 {
+.icon {
   height: 50px;
   width: 50px;
   position: relative;
@@ -189,7 +184,7 @@
   z-index: 1;
   margin-top: -233px;
 }
-.heading {
+.abstract-design-vector {
   height: 380px;
   width: 749px;
   margin: 0 !important;
@@ -202,7 +197,7 @@
   justify-content: flex-start;
   max-width: 100%;
 }
-.heading1 {
+.heading {
   margin: 0;
   height: 72px;
   flex: 1;
@@ -215,7 +210,7 @@
   max-width: 100%;
   z-index: 1;
 }
-.abstract-design {
+.text-container {
   width: 1397px;
   display: flex;
   flex-direction: row;
@@ -238,8 +233,12 @@
   padding: var(--padding-81xl) var(--padding-xl);
   min-height: 442px;
   max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--grey-15);
+  font-family: var(--font-urbanist);
 }
-.label {
+.label1 {
   align-self: stretch;
   height: 24px;
   position: relative;
@@ -251,7 +250,7 @@
   text-align: left;
   display: inline-block;
 }
-.input {
+.text {
   border: none;
   outline: none;
   font-weight: 500;
@@ -334,7 +333,7 @@
   text-align: left;
   display: inline-block;
 }
-.buttons-container {
+.dont-have-an-account-sign-up-wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -342,14 +341,14 @@
   padding: 0px var(--padding-sm) 0px 0px;
   cursor: pointer;
 }
-.sign-up-section {
+.container-inner {
   align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.icon2 {
+.icon1 {
   width: 24px;
   height: 24px;
   position: relative;
@@ -367,7 +366,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.buttons-container1 {
+.buttons-container {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -397,28 +396,15 @@
   gap: var(--gap-31xl);
   max-width: 100%;
 }
-.footer-section {
+.label {
   width: 1637px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0px var(--padding-xl);
+  padding: 0px var(--padding-xl) var(--padding-31xl);
   box-sizing: border-box;
   max-width: 100%;
-  text-align: center;
-  font-size: var(--font-size-29xl);
-  color: var(--grey-15);
-  font-family: var(--font-urbanist);
-}
-.frame-content {
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  margin: 0 !important;
-  top: -20.5px;
-  left: 77px;
-  overflow: hidden;
   flex-shrink: 0;
 }
 .healthy-habits1 {
@@ -431,14 +417,14 @@
   font-weight: 700;
   font-family: inherit;
   display: inline-block;
-  z-index: 1;
 }
-.healthy-habits-text1 {
+.logo {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-start;
   gap: var(--gap-2xs);
+  cursor: pointer;
   font-size: var(--font-size-13xl);
   font-family: var(--font-inter);
 }
@@ -472,20 +458,20 @@
   min-width: 42px;
   cursor: pointer;
 }
-.footer-container {
-  width: 597px;
+.text-footer-button {
+  width: 603px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0px var(--padding-95xl) 0px 0px;
+  padding: 0px var(--padding-101xl) 0px 0px;
   box-sizing: border-box;
   gap: var(--gap-7xl);
   max-width: 100%;
 }
-.line {
+.buttons-container1 {
   height: 27px;
-  width: 94px;
+  width: 88px;
   position: relative;
   line-height: 150%;
   font-weight: 600;
@@ -527,11 +513,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  position: relative;
   max-width: 100%;
   gap: var(--gap-xl);
 }
-.icon5 {
+.icon4 {
   height: 24px;
   width: 24px;
   position: relative;
@@ -540,7 +525,7 @@
 }
 .text-button12 {
   height: 27px;
-  width: 165px;
+  width: 210px;
   position: relative;
   line-height: 150%;
   font-weight: 500;
@@ -591,23 +576,15 @@
 }
 .text-button14 {
   height: 27px;
-  width: 195px;
+  width: 94px;
   position: relative;
+  font-size: var(--font-size-lg);
   line-height: 150%;
   font-weight: 500;
+  font-family: var(--font-urbanist);
+  color: var(--absolute-white);
+  text-align: left;
   display: inline-block;
-}
-.button8 {
-  border-radius: var(--br-7xs);
-  border: 1px solid var(--color-gray-100);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: var(--padding-sm) var(--padding-mini) var(--padding-sm)
-    var(--padding-smi);
-  gap: var(--gap-7xs);
-  white-space: nowrap;
 }
 .sub-container4 {
   display: flex;
@@ -617,7 +594,7 @@
   gap: var(--gap-xl);
   max-width: 100%;
 }
-.inner-peace-frames {
+.container4 {
   height: 27px;
   width: 330px;
   position: relative;
@@ -641,7 +618,9 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
-.footer-section1 {
+.footer-section {
+  margin-top: -18px;
+  margin-bottom: -18px;
   align-self: stretch;
   background-color: var(--color-gray-100);
   border-top: 1px solid var(--grey-15);
@@ -667,7 +646,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: var(--gap-57xl);
+  gap: var(--gap-31xl);
   letter-spacing: normal;
 }
 
@@ -682,6 +661,11 @@
     box-sizing: border-box;
   }
 
+  .label {
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+
   .container2 {
     flex-wrap: wrap;
   }
@@ -690,18 +674,18 @@
     flex-wrap: wrap;
   }
 
-  .footer-section1 {
+  .footer-section {
     padding-left: var(--padding-6xl);
     padding-right: var(--padding-6xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 1050px) {
-  .sub-container-frame {
+  .text-button-frame {
     display: none;
   }
 
-  .heading1 {
+  .heading {
     font-size: var(--font-size-19xl);
     line-height: 58px;
   }
@@ -709,14 +693,6 @@
   .healthy-habits1 {
     font-size: var(--font-size-7xl);
     line-height: 38px;
-  }
-
-  .sub-container4 {
-    flex-wrap: wrap;
-  }
-
-  .login-page-desktop {
-    gap: var(--gap-19xl);
   }
 }
 @media screen and (max-width: 750px) {
@@ -739,18 +715,27 @@
     box-sizing: border-box;
   }
 
-  .footer-container {
-    flex-wrap: wrap;
-    padding-right: var(--padding-38xl);
+  .label {
+    padding-bottom: var(--padding-2xl);
     box-sizing: border-box;
   }
 
-  .footer-section1 {
+  .text-footer-button {
+    flex-wrap: wrap;
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+
+  .sub-container4 {
+    flex-wrap: wrap;
+  }
+
+  .footer-section {
     gap: var(--gap-6xl);
   }
 
   .login-page-desktop {
-    gap: var(--gap-lgi);
+    gap: var(--gap-6xl);
   }
 }
 @media screen and (max-width: 450px) {
@@ -758,7 +743,7 @@
     gap: var(--gap-68xl);
   }
 
-  .heading1 {
+  .heading {
     font-size: var(--font-size-10xl);
     line-height: 43px;
   }
@@ -776,7 +761,7 @@
     line-height: 29px;
   }
 
-  .footer-container {
+  .text-footer-button {
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
